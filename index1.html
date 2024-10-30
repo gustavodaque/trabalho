@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Música</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2>Cadastrar Música</h2>
+        <form id="musicForm">
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="artist" placeholder="Artista" required>
+            <input type="text" id="genre" placeholder="Gênero" required>
+            <input type="text" id="duration" placeholder="Duração (min)" required>
+            <input type="url" id="link" placeholder="Link da música" required>
+            <button type="submit">Cadastrar Música</button>
+        </form>
+        <button id="goHomeButton" onclick="window.location.href='home.html'">Suas Músicas</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
